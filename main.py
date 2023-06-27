@@ -144,9 +144,9 @@ async def invite_connections_to_event(event_url):
     # Sign in to LinkedIn
     await page.goto('https://www.linkedin.com/login')
     await page.waitForSelector('#username')
-    await page.type('#username', 'jp738317@gmail.com')  # Replace with your LinkedIn email
+    await page.type('#username', '*********')  # Replace with your LinkedIn email
     sleep(1)
-    await page.type('#password', 'jaykakadiyA2*')  # Replace with your LinkedIn password
+    await page.type('#password', '***********')  # Replace with your LinkedIn password
     sleep(1)
     await page.click('button[type="submit"]')
     await page.waitForNavigation()
