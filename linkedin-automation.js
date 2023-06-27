@@ -14,9 +14,9 @@ async function inviteConnectionsToEvent(eventUrl) {
   // Sign in to LinkedIn
   await page.goto('https://www.linkedin.com/login');
   await page.waitForSelector('#username');
-  await page.type('#username', 'jp738317@gmail.com'); 
+  await page.type('#username', '***********'); 
   await sleep(5000);
-  await page.type('#password', 'jaykakadiyA2*');
+  await page.type('#password', '**********');
   await sleep(5000);
   await page.click('button[type="submit"]');
   await page.waitForNavigation();
